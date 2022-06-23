@@ -6,6 +6,7 @@
 /* colors */
 $white: #fff;
 $red: #f02d34;
+$selected: #f0e68c;
 $grey: #808080;
 $white-2: #eee;
 $light-grey: #ebebeb;
@@ -16,6 +17,7 @@ $dark-gray: #252525;
 $dark-blue: #12395e;
 $black: #000000;
 $green: #31a831;
+$background-select: linear-gradient(-45deg, #faa489, #ff79ac, #61c6eb, #4bf5cd);
 
 html,
 body,
@@ -562,7 +564,8 @@ span.text-red {
   transition: .3s ease-in-out;
 
   &:hover {
-    background-color: $red;
+    background: $background-select;
+    animation: gradient 15s ease infinite;
   }
 }
 
@@ -581,7 +584,7 @@ span.text-red {
 }
 
 .selected-image {
-  background-color: $red;
+  background-color: $selected;
 }
 
 .reviews {
@@ -696,7 +699,7 @@ span.text-red {
   }
 }
 
-.maylike-products-wrapper {
+.also-maylike-products-wrapper {
   margin-top: 120px;
 
   h2 {
@@ -707,7 +710,7 @@ span.text-red {
   }
 }
 
-.maylike-products-container {
+.also-maylike-products-container {
   display: flex;
   justify-content: center;
   gap: 15px;
