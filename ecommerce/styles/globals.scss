@@ -6,6 +6,7 @@
 /* colors */
 $white: #fff;
 $red: #f02d34;
+$light-red: #f73a40;
 $selected: #f0e68c;
 $grey: #808080;
 $white-2: #eee;
@@ -235,8 +236,8 @@ span.text-red {
 
 .hero-banner-image {
   position: absolute;
-  top: 5%;
-  right: 39%;
+  top: 0%;
+  right: 20%;
   width: 450px;
   height: 450px;
 }
@@ -284,7 +285,7 @@ span.text-red {
 
 .footer-banner-container {
   padding: 100px 40px;
-  background-color: $red;
+  background-color: $light-red;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -746,42 +747,37 @@ span.text-red {
 }
 
 .success {
+  background-color: #eaf7e4;
+
   .icon {
     color: green;
     font-size: 40px;
   }
 
   h2 {
-    text-transform: capitalize;
     margin-top: 15px 0px;
     font-weight: 900;
     font-size: 40px;
     color: $dark-blue;
   }
 
+  h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: $dark-gray-2;
+  }
+
   .email-msg {
     font-size: 16px;
     font-weight: 600;
     text-align: center;
+    color: $dark-gray-2;
   }
 }
 
 .cancel p {
   font-size: 20px;
   font-weight: 600;
-}
-
-.success .description {
-  font-size: 16px;
-  font-weight: 600;
-  text-align: center;
-  margin: 10px;
-  margin-top: 30px;
-
-  .email {
-    margin-left: 5px;
-    color: $red;
-  }
 }
 
 .product-max-qty {
@@ -793,24 +789,29 @@ span.text-red {
     height: 560px;
   }
 
+  .hero-banner-container .desc {
+    width: 320px;
+  }
+
   .hero-banner-image {
-    width: 77%;
-    height: 62%;
-    top: -2%;
+    width: 51%;
+    height: 36%;
+    top: 41%;
     right: -6%;
   }
 
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
+
+    .footer-banner-image {
+      width: 33% !important;
+      left: 67% !important;
+      top: 38% !important;
+      height: 27%;
+    }
   }
 
-  .footer-banner-image {
-    width: 77%;
-    left: 30%;
-    top: 6%;
-    height: 56%;
-  }
 
   .banner-desc {
     .left {
