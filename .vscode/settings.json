@@ -1,8 +1,0 @@
-{
-	"typescript.format.insertSpaceAfterConstructor": true,
-	"typescript.suggest.completeFunctionCalls": true,
-	"typescript.referencesCodeLens.showOnAllFunctions": true,
-	"javascript.suggest.completeFunctionCalls": false,
-	"javascript.referencesCodeLens.showOnAllFunctions": false,
-	"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true
-}
