@@ -4,7 +4,6 @@ Modern Full Stack Ecommerce application with Payments functionality and I use sa
 
 ![screenshot](https://user-images.githubusercontent.com/72916496/176389044-48cabfe3-c6b2-44d0-8b17-e86e351a9c2a.png)
 
-<iframe src="https://drive.google.com/file/d/18Fumphsww_BAwlvrIlBK2t9D6BA9XsWF/preview" width="640" height="480"></iframe>
 
 ## Demo
 
